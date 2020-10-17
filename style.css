@@ -1,0 +1,142 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+
+body{
+    overflow-x: hidden !important;
+}
+
+.sidebar{
+    word-wrap: break-word;
+}
+
+.menu{
+    margin:15px 10px 40px 10px;
+    padding:0px 10px;
+    border:none;
+    border-radius: 30px;
+    box-shadow: 5px 3px 40px 0px #e4e4e4;
+    font-weight: 450;
+}
+
+.dashboard{
+    font-family:'montserrat alternatives', sans-serif;
+    /* padding-top:10px; */
+    margin-left:15px;
+    font-family: 500;
+    font-size:1.2rem;
+    vertical-align: middle;
+}
+
+.right{
+    padding-top:12px;
+    padding-right:45px;
+}
+
+.left{
+    padding-top:13px;
+    padding-left:25px;
+}
+
+.profilename{
+    font-family:'poppins', sans-serif;
+    padding-top:3px;
+}
+
+.profilename, .profileimgdiv{
+    float:right;
+    vertical-align: middle;
+    margin-left:5px;
+    margin-right:5px;
+}
+
+.fa-user{
+    position: absolute;
+    top:20%;
+    left:27%;
+    color:#fff
+}
+
+.profileimgdiv{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+    background: #3301F8;
+    position: relative;
+    float: right;
+}
+
+.dashboardcard{
+    text-align: center;
+    /* padding:30px 5px 40px 5px; */
+    color:white;
+    border-radius:10px;
+    font-family:'montserrat alternatives', sans-serif;
+    /* margin:15px 10px; */
+    /* min-width:100px; */
+}
+.card{
+    border:none;
+}
+
+.dash1{
+    background-color: #F1018A;
+}
+
+.dash2{
+    background-color: #00C259;
+
+}
+
+
+.number{
+    font-weight:800;
+    font-size:2.3rem;
+}
+
+.icondiv{
+    height:60px;
+    width:60px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 auto;
+    position: relative;
+}
+
+.fa-star{
+    color:#F1018A;
+    position: absolute;
+    top:20%;
+    left:20%;
+    /* transform:translate(50% -50%) */
+}
+
+.fa-gavel{
+    color:#00C259;
+    position:absolute;
+    top:20%;
+    right:20%;
+}
+
+.notifs{
+    margin-top:20px;
+    padding:10px 0px;
+}
+
+
+
+.notifications{
+    background-color: #282828;
+    color:#fff;
+    font-family: 'poppins' sans-serif;
+    border-radius:10px;
+}
+
+.messages{
+    background: #0741D4;
+    border-radius: 10px;
+    color:white;
+    font-family:'poppins' sans-serif;
+    height:100%;
+}
